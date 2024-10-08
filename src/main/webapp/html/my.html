@@ -105,7 +105,7 @@
     </tr>
 
 </table>
-
+</body>
 <script>
     function show_list(page_number) {
         $("tr:has(td)").remove()
@@ -235,6 +235,8 @@
         let value_birthday = $("#input_birthday_new").val();
         let value_banned = $("#input_banned_new").val();
 
+        console.log(value_name)
+
         let url = "/rest/players";
         $.ajax({
             url: url,
@@ -340,6 +342,4 @@
         return parseInt(current_page) - 1;
     }
 </script>
-
-</body>
 </html>
