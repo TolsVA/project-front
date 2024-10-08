@@ -1,0 +1,36 @@
+#index_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#index_table th, #index_table td {
+    border: #ccc 1px solid;
+    padding: 5px 10px;
+}
+
+#create_table th{
+    text-align: right;
+}
+
+table{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.create_table_class{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+label, h2{
+    text-align: left;
+}
+
+#create_table{
+    margin:auto;
+}
+
+/*#create_table th{*/
+/*    border: 1px solid black;*/
+/*    padding: 3px;*/
+/*}*/
